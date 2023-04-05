@@ -1,225 +1,141 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,maximum-scale=1, user-scalable=no">
-    <link rel="stylesheet" href="./style/commen.css">
-    <link rel="stylesheet/less" type="text/css" href="./style/m.index.less" media="screen and (max-width:625px)" />
-    <link rel="stylesheet/less" type="text/css" href="./style/index.less" media="screen and (min-width:625px)" />
-    <script src="./js/less.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/index.css">
     <link rel="stylesheet" href="./font/iconfont.css">
-    <link rel="shortcut icon" href="./img/icon/favicon.ico" />
-    <title>Arknight</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <script src="./js/index.js"></script>
+    <title>画语AI</title>
 </head>
-
 <body>
-    <header id="top">
-        <nav>
-            <ul class="nav1">
-                <li class="clearfix"><a href="index.html"><span class="iconfont icon-shouye"></span>首页</a></li>
-                <li class="clearfix"><a href="./official.html"><span class="iconfont icon-renshishuju"></span>干员</a>
-                </li>
-                <li class="clearfix"><a href=""><span class="iconfont icon-record"></span>档案</a></li>
-                <li class="clearfix"><a href=""><span class="iconfont icon-set"></span>设定</a></li>
-                <li class="clearfix"><a href="./news.html"><span class="iconfont icon-cz-qbdj"></span>情报</a></li>
-                <li class="clearfix">
-                    <p><span class="iconfont icon-geren"></span>个人</p>
-                    <section class="nav2">
-                        <ul>
-                            <li><a href="./login.html"><span class="iconfont icon-denglu"></span>登录</a></li>
-                            <li><a href="./login.html"><span class="iconfont icon-zhuce"></span>注册</a></li>
-                        </ul>
-                    </section>
-                </li>
-            </ul>
-        </nav>
-        <ul class="footNav">
-            <li class="toTop"><a href="#top"><span class="iconfont icon-dingbu"></span></a></li>
-            <li class="music"><span id="icon" class="iconfont icon-24gl-play"></span></li>
-            <audio id="song">
-                <source src="./media/Speed of Light - 塞壬唱片-MSR、二宮愛、DJ OKAWARI.mp3">
-            </audio>
-            <script src="./js/index.js"></script>
+    <button id="top" type="button" class="iconfont icon-icon_on_the_top"></button>
+    <nav>
+        <section id="nav_logo">
+            <img src="./logo.png" alt="">
+            <strong>画语AI</strong>
+        </section>
+        <ul>
+            <li>
+                <a href="#skill" id="nav_skill">创作技巧</a>
+            </li>
+            <li>
+                <a href="" id="nav_login">登录</a>
+            </li>
         </ul>
+    </nav>
+    <header>
+        <h1>AI生成</h1>
+        <h1>高质量艺术品</h1>
+        <a href="" id="download">开始创作</a>
     </header>
-
     <main>
-        <section class="main1">
-            <div class="img1">
-                <h1>Arknight</h1>
+        <section id="exhibition">
+            <header id="change">
+                <section id="introduce">
+                    <h2>
+                        特色艺术品
+                    </h2>
+                    <h3>
+                        使用AI能创建任何艺术或图像
+                    </h3>
+                </section>
+                <section id="picture_rotation">
+                    <div id="left"><span class="iconfont icon-icon_on_the_left"></span></div>
+                    <div id="right"><span class="iconfont icon-icon_on_the_right"></span></div>
+                </section>
+            </header>
+            <section id="img_exhibition">
                 <div>
-                    <p>Sroll</p>
-                    <span class="iconfont icon-xiangxia"></span>
+                    <div></div>    
+                    <p></p>
                 </div>
-            </div>
-            <div class="word1">
-                <div class="gameload">
-                    <div class="Android">
-                        <a href="https://ak.hycdn.cn/apk/202212131457-1942-qh5z59iv6c68dbw4djk1/arknights-hg-1942.apk">
-                            <span class="iconfont icon-anzhuo"></span>
-                            <div>
-                                <h4>Android</h4>
-                                <p>下载</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="Apple">
-                        <a href="https://itunes.apple.com/cn/app/id1454663939?mt=8">
-                            <span class="iconfont icon-pingguo"></span>
-                            <div>
-                                <h4>Apple Store</h4>
-                                <p>下载</p>
-                            </div>
-                        </a>
-                    </div>
+                <div>
+                    <div></div>
+                    <p></p>
                 </div>
-                <div class="word1Word">
-                    <h1>RHODES</h1>
-                    <h1>ISLAND</h1>
+                <div>
+                    <div></div>
+                    <p></p>
                 </div>
-            </div>
-        </section>
-        <section class="main2">
-            <div class="img2"></div>
-            <div class="word2">
-                <div class="news">
-                    <div>
-                        <a href="">
-                            <p>2022-12-17</p>
-                            <h4>[活动预告]跨年纪念限时活动即将开启</h4>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="">
-                            <p>2022-12-17</p>
-                            <h4>[跨年欢庆寻访][跨年欢庆·相逢]限时寻访即将开启</h4>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="">
-                            <p>2022-12-15</p>
-                            <h4>[明日方舟]关于干员【焰影苇草】技能异常说明</h4>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="">
-                            <p>2022-12-08</p>
-                            <h4>[活动预告]SideStory[照我以火]限时活动即将开启</h4>
-                        </a>
-                    </div>
+                <div>
+                    <div></div>
+                    <p></p>
                 </div>
-                <div class="setting">
-                    <div>
-                        <a href="#">
-                            <h2>源石 ORIGINIUMS</h2>
-                        </a>
-                    </div>
-                    <hr>
-                    <div>
-                        <a href="#">
-                            <h2>源石技艺 ORIGINIUM ARTS</h2>
-                        </a>
-                    </div>
-                    <hr>
-                    <div>
-                        <a href="#">
-                            <h2>
-                                整合运动 REUNION
-                            </h2>
-                        </a>
-                    </div>
-                    <hr>
-                    <div>
-                        <a href="#">
-                            <h2>
-                                感染者 INFECTED
-                            </h2>
-                        </a>
-                    </div>
-                    <hr>
-                    <div>
-                        <a href="#">
-                            <h2>
-                                移动城邦 NOMADIC CITY
-                            </h2>
-                        </a>
-                    </div>
-                    <hr>
-                    <div>
-                        <a href="#">
-                            <h2>
-                                罗德岛 RHODES ISLAND
-                            </h2>
-                        </a>
-                    </div>
+                <div>
+                    <div></div>
+                    <p></p>
                 </div>
-            </div>
-        </section>
-        <section class="main3">
-            <div class="img3">
-            </div>
-            <div class="word3">
-                <div class="official">
-                    <div>
-                        <div class="amiya">
-                            <div class="front">
-                                <h4>阿米娅</h4>
-                            </div>
-                            <div class="back">
-                                <p>罗德岛的公开领袖，在内部拥有最高执行权。虽然，从外表上看起来仅仅是个不成熟的少女，实际上，她却是深受大家信任的合格的领袖。</p>
-                                <p>现在，阿米娅正带领着罗德岛，为了感染者的未来，为了让这片大地挣脱矿石病的阴霾而不懈努力。</p>
-                            </div>
-                        </div>
-                        <div class="kaierxi">
-                            <div class="front">
-                                <h4>凯尔西</h4>
-                            </div>
-                            <div class="back">
-                                <p>凯尔希，前卡兹戴尔的勋爵，前巴别塔成员，罗德岛高层管理人员之一，罗德岛医疗项目领头人。</p>
-                                <p>在冶金工业、社会学、源石技艺、考古学、历史系谱学、经济学、植物学、地质学等领域皆拥有渊博学识</p>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="./official.html">READ MORE+</a>
+                <div>
+                    <div></div>
+                    <p></p>
                 </div>
-                <div class="files">
-                    <a href="https://ak.hypergryph.com/#media">
-                        <div class="jiaojuan">
-                            <img src="./img/index/jiaojuan.png" alt="">
-                            <div>
-                                <h2>结事回顾</h2>
-                                <p>Celebration Review</p>
-                            </div>
-                        </div>
-                    </a>
+            </section>
+        </section> 
 
-                    <a href="https://ak.hypergryph.com/archive/dynamicCompile/">
-                        <div class="jilu">
-                            <img src="./img/index/jilu.png" alt="">
-                            <div>
-                                <h2>干员动态集录</h2>
-                                <p>Operator Dynamic Compile</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
+        <section id="word">
+            <section>
+                <section>                
+                    <h4>与我们的画语</h4>
+                    <h4>AI交流想法</h4>
+                </section>
+                <span class="iconfont icon-huatongyuyin"></span>
+            </section>
+            <section>
+                <span class="iconfont icon-huaban"></span>
+                <section>
+                    <h4>通过专业技术</h4>
+                    <h4>实现你的脑洞</h4>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h4>将你的各种想</h4>
+                    <h4>法通通实现</h4>
+                </section>
+                <span class="iconfont icon-bulb-copy-copy"></span>
+            </section>
         </section>
-        <section class="main4">
-            <div class="img4">
-                <div class="report" id="report">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <a href="./report.html">前往报告</a>
-                </div>
-            </div>
+
+        <section id="skill">
+            <h1>创作技巧</h1>
+            <section>
+                <section>
+                    <h4 class="skill">如何用AI生成艺术？</h4>
+                    <h4 class="skill">如何使AI创作的图片更好看？</h4>
+                    <h4 class="skill">使用画语AI生成的图片可以商用吗？</h4>
+                </section>
+                <section id="textarea" cols="30" rows="10"></section>
+            </section>
         </section>
     </main>
+    <footer>
+        <h1>让艺术不再是壁垒</h1>
+        <section>
+            <section id="footer_logo">            
+                <img src="./logo.png" alt="">
+                <h2>画语AI</h2>
+                <h2>绘你所想!!!</h2>
+            </section>
+            <section id="footer_introduce">
+                <section>
+                    <h6>关于画语</h6>
+                    <a href="">公司简介</a>
+                    <a href="">新闻中心</a>
+                    <a href="">人才招聘</a>
+                    <a href="">就业历程</a>
+                </section>
+                <section>
+                    <h6>服务支持</h6>
+                    <a href="">政企服务</a>
+                    <a href="">合作伙伴</a>
+                    <a href="">练习我们</a>
+                </section>
+            </section>
 
-
+        </section>
+    </footer>
 </body>
-
 </html>
