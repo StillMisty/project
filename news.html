@@ -1,213 +1,175 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,maximum-scale=1, user-scalable=no">
-    <link rel="stylesheet" href="./style/commen.css">
-    <link rel="stylesheet/less" type="text/css" href="./style/m.news.less" media="screen and (max-width:625px)" />
-    <link rel="stylesheet/less" type="text/css" href="./style/news.less" media="screen and (min-width:625px)" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 ,maximum-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="./style/commen.css" />
+    <link
+      rel="stylesheet/less"
+      type="text/css"
+      href="./style/m.news.less"
+      media="screen and (max-width:625px)"
+    />
+    <link
+      rel="stylesheet/less"
+      type="text/css"
+      href="./style/news.less"
+      media="screen and (min-width:625px)"
+    />
     <script src="./js/less.min.js"></script>
-    <link rel="stylesheet" href="./font/iconfont.css">
+    <link rel="stylesheet" href="./font/iconfont.css" />
     <link rel="shortcut icon" href="./img/icon/favicon.ico" />
     <title>Arknight</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="navbtn">
-            <div class="navbtnIcon"></div>
-            <div class="navbtnIcon"></div>
-            <div class="navbtnIcon"></div>
+      <div class="navbtn">
+        <div class="navbtnIcon"></div>
+        <div class="navbtnIcon"></div>
+        <div class="navbtnIcon"></div>
+      </div>
+      <nav>
+        <div>
+          <a href="./index.html">
+            <h5>HOME</h5>
+            <h5>首页</h5>
+          </a>
+          <a href="./news.html">
+            <h5>NEWS</h5>
+            <h5>情报</h5>
+          </a>
+          <a href="./official.html">
+            <h5>STAFF</h5>
+            <h5>干员</h5>
+          </a>
+          <a href="">
+            <h5>WORLD</h5>
+            <h5>设定</h5>
+          </a>
+          <a href="">
+            <h5>MEDIA</h5>
+            <h5>档案</h5>
+          </a>
+          <a href="./login.html">
+            <h5>LOGIN</h5>
+            <h5>登录</h5>
+          </a>
         </div>
-        <nav>
-            <div>
-                <a href="./index.html">
-                    <h5>HOME</h5>
-                    <h5>首页</h5>
-                </a>
-                <a href="./news.html">
-                    <h5>NEWS</h5>
-                    <h5>情报</h5>
-                </a>
-                <a href="./official.html">
-                    <h5>STAFF</h5>
-                    <h5>干员</h5>
-                </a>
-                <a href="">
-                    <h5>WORLD</h5>
-                    <h5>设定</h5>
-                </a>
-                <a href="">
-                    <h5>MEDIA</h5>
-                    <h5>档案</h5>
-                </a>
-                <a href="./login.html">
-                    <h5>LOGIN</h5>
-                    <h5>登录</h5>
-                </a>
-            </div>
-            <div>
-                <div class="Android">
-                    <a href="https://ak.hycdn.cn/apk/202212131457-1942-qh5z59iv6c68dbw4djk1/arknights-hg-1942.apk">
-                        <span class="iconfont icon-anzhuo"></span>
-                        <div>
-                            <h4>Android</h4>
-                            <p>下载</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="Apple">
-                    <a href="https://itunes.apple.com/cn/app/id1454663939?mt=8">
-                        <span class="iconfont icon-pingguo"></span>
-                        <div>
-                            <h4>Apple Store</h4>
-                            <p>下载</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </nav>
-        <ul class="footNav">
-            <li class="music"><span id="icon" class="iconfont icon-24gl-play"></span></li>
-            <audio id="song">
-                <source src="./media/Speed of Light - 塞壬唱片-MSR、二宮愛、DJ OKAWARI.mp3">
-            </audio>
-            <script src="./js/index.js"></script>
-        </ul>
+        <div>
+          <div class="Android">
+            <a
+              href="https://ak.hycdn.cn/apk/202212131457-1942-qh5z59iv6c68dbw4djk1/arknights-hg-1942.apk"
+            >
+              <span class="iconfont icon-anzhuo"></span>
+              <div>
+                <h4>Android</h4>
+                <p>下载</p>
+              </div>
+            </a>
+          </div>
+          <div class="Apple">
+            <a href="https://itunes.apple.com/cn/app/id1454663939?mt=8">
+              <span class="iconfont icon-pingguo"></span>
+              <div>
+                <h4>Apple Store</h4>
+                <p>下载</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </nav>
+      <ul class="footNav">
+        <li class="music">
+          <span id="icon" class="iconfont icon-24gl-play"></span>
+        </li>
+        <audio id="song">
+          <source
+            src="./media/Speed of Light - 塞壬唱片-MSR、二宮愛、DJ OKAWARI.mp3"
+          />
+        </audio>
+        <script src="./js/index.js"></script>
+      </ul>
     </header>
 
     <main>
-        <div class="page1 place1">
-            <a href="">
-                <h2 class="type">活动</h2>
-                <p class="content">
-                    [活动预告]跨年纪念限时活动即将开启
-                </p>
-                <p class="time">
-                    2022-12-17
-                </p>
-                <p class="tip">
-                    READ MORE+
-                </p>
-            </a>
-        </div>
-        <div class="page1 place2">
-            <a href="">
-                <h2 class="type">活动</h2>
-                <p class="content">
-                    [跨年欢庆寻访][跨年欢庆·相逢]限时寻访即将开启
-                </p>
-                <p class="time">
-                    2022-12-17
-                </p>
-                <p class="tip">
-                    READ MORE+
-                </p>
-            </a>
-        </div>
-        <div class="page1 place3">
-            <a href="">
-                <h2 class="type">活动</h2>
-                <p class="content">
-                    [活动预告]SideStory[照我以火]限时活动即将开启
-                </p>
-                <p class="time">
-                    2022-12-08
-                </p>
-                <p class="tip">
-                    READ MORE+
-                </p>
-            </a>
-        </div>
-        <div class="page1 place4">
-            <a href="">
-                <h2 class="type">公告</h2>
-                <p class="content">
-                    [明日方舟]12月22日16:00闪断更新公告
-                </p>
-                <p class="time">
-                    2022-12-22
-                </p>
-                <p class="tip">
-                    READ MORE+
-                </p>
-            </a>
-        </div>
-        <div class="page1 place5">
-            <a href="">
-                <h2 class="type">公告</h2>
-                <p class="content">
-                    [明日方舟]12月21日封禁处理公示
-                </p>
-                <p class="time">
-                    2022-12-21
-                </p>
-                <p class="tip">
-                    READ MORE+
-                </p>
-            </a>
-        </div>
-        <div class="page1 place6">
-            <a href="">
-                <h2 class="type">公告</h2>
-                <p class="content">
-                    [明日方舟]关于干员【焰影苇草】技能异常说明
-                </p>
-                <p class="time">
-                    2022-12-15
-                </p>
-                <p class="tip">
-                    READ MORE+
-                </p>
-            </a>
-        </div>
-        <div class="page1 place7">
-            <a href="">
-                <h2 class="type">公告</h2>
-                <p class="content">
-                    [明日方舟]12月15日10:00版本更新停机维护公告
-                </p>
-                <p class="time">
-                    2022-12-14
-                </p>
-                <p class="tip">
-                    READ MORE+
-                </p>
-            </a>
-        </div>
-        <div class="page1 place8">
-            <a href="">
-                <h2 class="type">公告</h2>
-                <p class="content">
-                    [明日方舟]12月14日封禁出了公示
-                </p>
-                <p class="time">
-                    2022-12-14
-                </p>
-                <p class="tip">
-                    READ MORE+
-                </p>
-            </a>
-        </div>
-        <div class="page1 place9">
-            <a href="">
-                <h2 class="type">公告</h2>
-                <p class="content">
-                    [明日方舟]12月07日封禁处理公示
-                </p>
-                <p class="time">
-                    2022-12-07
-                </p>
-                <p class="tip">
-                    READ MORE+
-                </p>
-            </a>
-        </div>
-
+      <div class="page1 place1">
+        <a href="">
+          <h2 class="type">活动</h2>
+          <p class="content">[活动预告]跨年纪念限时活动即将开启</p>
+          <p class="time">2022-12-17</p>
+          <p class="tip">READ MORE+</p>
+        </a>
+      </div>
+      <div class="page1 place2">
+        <a href="">
+          <h2 class="type">活动</h2>
+          <p class="content">[跨年欢庆寻访][跨年欢庆·相逢]限时寻访即将开启</p>
+          <p class="time">2022-12-17</p>
+          <p class="tip">READ MORE+</p>
+        </a>
+      </div>
+      <div class="page1 place3">
+        <a href="">
+          <h2 class="type">活动</h2>
+          <p class="content">[活动预告]SideStory[照我以火]限时活动即将开启</p>
+          <p class="time">2022-12-08</p>
+          <p class="tip">READ MORE+</p>
+        </a>
+      </div>
+      <div class="page1 place4">
+        <a href="">
+          <h2 class="type">公告</h2>
+          <p class="content">[明日方舟]12月22日16:00闪断更新公告</p>
+          <p class="time">2022-12-22</p>
+          <p class="tip">READ MORE+</p>
+        </a>
+      </div>
+      <div class="page1 place5">
+        <a href="">
+          <h2 class="type">公告</h2>
+          <p class="content">[明日方舟]12月21日封禁处理公示</p>
+          <p class="time">2022-12-21</p>
+          <p class="tip">READ MORE+</p>
+        </a>
+      </div>
+      <div class="page1 place6">
+        <a href="">
+          <h2 class="type">公告</h2>
+          <p class="content">[明日方舟]关于干员【焰影苇草】技能异常说明</p>
+          <p class="time">2022-12-15</p>
+          <p class="tip">READ MORE+</p>
+        </a>
+      </div>
+      <div class="page1 place7">
+        <a href="">
+          <h2 class="type">公告</h2>
+          <p class="content">[明日方舟]12月15日10:00版本更新停机维护公告</p>
+          <p class="time">2022-12-14</p>
+          <p class="tip">READ MORE+</p>
+        </a>
+      </div>
+      <div class="page1 place8">
+        <a href="">
+          <h2 class="type">公告</h2>
+          <p class="content">[明日方舟]12月14日封禁出了公示</p>
+          <p class="time">2022-12-14</p>
+          <p class="tip">READ MORE+</p>
+        </a>
+      </div>
+      <div class="page1 place9">
+        <a href="">
+          <h2 class="type">公告</h2>
+          <p class="content">[明日方舟]12月07日封禁处理公示</p>
+          <p class="time">2022-12-07</p>
+          <p class="tip">READ MORE+</p>
+        </a>
+      </div>
     </main>
-</body>
-<script src="./js/news.js"></script>
-
+  </body>
+  <script src="./js/news.js"></script>
 </html>

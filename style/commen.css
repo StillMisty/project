@@ -1,28 +1,28 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 img {
-    vertical-align: top;
-    border: 0;
+  vertical-align: top;
+  border: 0;
 }
 
 ol,
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 html {
-    user-select: none;
-    scroll-behavior: smooth;
+  user-select: none;
+  scroll-behavior: smooth;
 }
